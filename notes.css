@@ -1,0 +1,126 @@
+  html {
+    font-family: sans-serif;
+  }
+  
+  body {
+    margin: 0 auto;
+    max-width: 800px;
+    
+  }
+  
+  header, footer {
+    background-color: green;
+    color: white;
+    line-height: 100px;
+    padding: 0 20px;
+    
+  }
+  
+  .create-note, .note-display {
+    padding: 20px;
+   
+  }
+  
+  .create-note {
+    background: #ddd;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  div {
+    margin-bottom: 10px;
+  }
+
+
+  .flexLineCenter {
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+  }
+
+  textarea{
+    margin-left: 0.5vw;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  input{
+    margin-left: 0.4vw;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+  }
+  
+  .dNote{
+    border: 3px solid green;
+    overflow-x: auto;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;;
+  }
+
+  button {
+    transition: all 0.1s ease-out;
+    border-radius: 10px;
+  }
+
+  li > button {
+    border-radius: 10px;
+    margin-left: 8px;
+    transition: all 0.1s ease-out;
+  }
+
+  button:hover {
+    background-color: green;
+    color: white;
+    transform: scale(1.2);
+    
+    cursor: pointer;
+  }
+
+
+  .nPara {
+    display: block;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 90%; 
+  }
+
+  .newlnPara {
+    white-space: pre-wrap;
+  }
+
+  .dBtn {
+    position: absolute;
+    margin: 0px;
+    right: 10px;
+    top: 10px;
+    border-radius: 50%;
+    padding: 2px;
+    border: 2px solid rgb(73, 73, 73);
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    transition: all 0.1s ease-out;
+  }
+
+  .note-display {
+    position: relative;
+  }
+
+  .dBtn:hover {
+    background-color: rgb(3, 54, 54);
+    color: white;
+    transform: scale(1.1);
+    /*border: 2px solid rgb(28, 192, 137);*/
+  }

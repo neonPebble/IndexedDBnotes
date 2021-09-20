@@ -1,0 +1,191 @@
+  
+  
+   .darkMl::-webkit-scrollbar {
+    display: block;
+    background-color: black;
+    width: 0.8vw;
+  }
+  
+  .darkMl::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 134, 134);
+    
+  }
+  .darkMl::-webkit-scrollbar-thumb:hover {
+    background-color: aqua;
+    
+  }
+
+
+  
+  .darkMl::-webkit-scrollbar-track:hover {
+    background-color: rgb(49, 49, 49);
+  }
+  
+  
+  
+  
+  
+  
+  .darkMl {
+    font-family: sans-serif;
+    background-color: black;
+    color: aqua;
+  }
+  
+  .darkMl body {
+    margin: 0 auto;
+    max-width: 800px;
+
+    background-color: black;
+    color: aqua;
+    
+  }
+  
+  .darkMl header, .darkMl footer {
+    background-color: rgba(44, 40, 40, 0.973);
+    color: aqua;
+    line-height: 100px;
+    padding: 0 20px;
+    
+  }
+  
+  .darkMl .create-note, .darkMl .note-display {
+    padding: 20px;
+    
+   
+  }
+  
+  .darkMl .create-note {
+    background-color: rgba(36, 33, 33, 0.973);
+    color: aqua;
+  }
+  
+  .darkMl h1 {
+    margin: 0;
+  }
+  
+  .darkMl ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .darkMl div {
+    margin-bottom: 10px;
+  }
+
+
+  .darkMl .flexLineCenter {
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+  }
+
+  .darkMl textarea{
+    margin-left: 0.5vw;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: black;
+    border: 2px solid aqua;
+    color: aqua;
+  }
+  
+  .darkMl input{
+    margin-left: 0.4vw;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    background-color: black;
+    border: 2px solid aqua;
+    color: aqua;
+  }
+  
+  .darkMl .dNote{
+    border: 2px solid aqua;
+    overflow-x: auto;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;;
+  }
+
+  .darkMl button {
+    transition: all 0.1s ease-out;
+    border-radius: 10px;
+    border: 2px solid aqua;
+    background-color: black;
+    color: aqua;
+  }
+
+  .darkMl li > button {
+    border-radius: 10px;
+    margin-left: 8px;
+    transition: all 0.1s ease-out;
+    border: 2px solid aqua;
+    background-color: black;
+    color: aqua;
+  }
+
+  .darkMl button:hover {
+    background-color: rgb(3, 54, 54);
+    /*background-color: rgba(36, 33, 33, 0.973)*/
+    color: white;
+    transform: scale(1.2);
+    
+    cursor: pointer;
+  }
+
+
+  .darkMl .nPara {
+    display: block;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 90%; 
+    background-color: black;
+    border: 2px solid greenyellow;
+    color: greenyellow;
+  }
+
+  .darkMl .newlnPara {
+    white-space: pre-wrap;
+  }
+
+  .darkMl .dBtn {
+    position: absolute;
+    margin: 0px;
+    right: 10px;
+    top: 10px;
+    border-radius: 50%;
+    padding: 2px;
+    border: 2px solid aqua;
+    background-color: black;
+    color: aqua;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    transition: all 0.1s ease-out;
+   
+  }
+
+  .darkMl .note-display {
+    position: relative;
+  }
+
+  .darkMl .dBtn:hover {
+    background-color: rgb(3, 54, 54);
+    color: white;
+    transform: scale(1.1);
+  }
+
+  .darkMl .create-note textarea:focus {
+      color: aqua;
+      border-color: aqua;
+      outline-color: aqua;
+  }
+  
+  .darkMl .create-note input:focus {
+    color: aqua;
+    border-color: aqua;
+    outline-color: aqua;
+  }

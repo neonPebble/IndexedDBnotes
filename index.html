@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IndexedDB demo</title>
+    <link href="notes.css" rel="stylesheet">
+    <script src="notesa.js" defer></script>
+    <link href="notesdark.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <div>
+    <header>
+      <h1>Create and save notes</h1>
+    </header>
+    <!--<div class="dBtn">L</div>-->
+    </div>
+     
+    <main>
+      <section class="note-display">
+        <div class="dBtn">L</div>
+        <h2>Notes</h2>
+        <ul>
+
+        </ul>
+      </section>
+      <section class="create-note">
+        <h2>Create a new note</h2>
+        <form>
+          <div>
+            <label for="title">Note title</label>
+            <input id="title" type="text"  spellcheck="false" required>
+          </div>
+          <div class="flexLineCenter">
+            <label for="body">Note text</label>
+            <textarea  spellcheck="false" rows="5" cols="30" id="body" type="text" required></textarea>
+          </div>
+          <div>
+            <button>Create new note</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <!--<p><button>&#x222b;</button> <button>2</button> <button>3</button></p>-->
+    </footer>
+  </body>
+</html>
