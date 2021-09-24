@@ -246,6 +246,7 @@
     background-color: rgb(3, 54, 54);
     color: white;
     transform: scale(1.1);
+    cursor: pointer;
   }
 
   .darkMl .create-note textarea:focus {
